@@ -31,7 +31,7 @@ class AdjacencyListGraph<E extends Comparable<E>> {
 
         public boolean removeAdjacentVertex(E to) {
             // use indexes here so it is possible to 
-            // remove easily without implementing 
+            // remove easily without implementing 123
             // equals method that ArrayList.remove(Object o) uses
             for (int i = 0; i < adjacentVerticies.size(); i++) {
                 if (adjacentVerticies.get(i).data.compareTo(to) == 0) {
